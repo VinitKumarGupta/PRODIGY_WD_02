@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #22333B;
+    transform: translate(-50%, -50%);
+    padding-bottom: 60px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px
+                rgba(0, 0, 0, 0.3) 0px 7px 13px -3px
+                rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.display {
+    width: 100%;
+    background: #EDB230;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #0A0908;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 10px 0 0;
+    align-items: center;
+    font-size: 3.5rem;
+}
+
+.laps {
+    margin-top: 10px;
+    text-align: center;
+    color: #F2F4F3;
+    text-decoration: none;
+}
+
+.actions {
+    display: grid;
+    margin: 60px auto 0 auto;
+    width: 85%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    /* text-align: center; */
+}
+
+.actions button {
+    padding: 10px;
+    margin: 5px;
+    border: 3px solid #000;
+    border-radius: 20px;
+    background-color: #F2F4F3;
+    color: #0A0908;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px
+                rgba(0, 0, 0, 0.3) 0px 7px 13px -3px
+                rgba(0, 0, 0, 0.2) 0px -3px 0px inset;  
+} 
+
+button:hover {
+    background-color: #00A878;
+    color: #fff;
+}
